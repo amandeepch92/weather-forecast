@@ -40,7 +40,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 body{
   margin: 0;
 }
@@ -50,13 +50,5 @@ body{
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   margin: 1em;  
-}
-.logo{
-  width: 25px;
-  height: 25px;
-}
-.footer {
-    margin-top: 50px;
-    text-align: center;
 }
 </style>

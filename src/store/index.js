@@ -58,9 +58,6 @@ const getters = {
     return {
       name: state.city,
       country: state.country,
-      tempC: state.currentWeather.temp_c,
-      tempF: state.currentWeather.temp_f,
-      datetime: state.currentWeather.last_updated,
       conditionIcon: state.currentWeather.condition ? state.currentWeather.condition.icon : '',
       conditionText: state.currentWeather.condition ? state.currentWeather.condition.text : ''
     }
